@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin: 'https://frontendnetfix.onrender.com/',
+    origin: 'https://frontendnetfix.onrender.com',
     credentials: true,
 
 };
